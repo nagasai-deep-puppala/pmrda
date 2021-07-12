@@ -1,0 +1,72 @@
+package com.iic.pmrda.metaData;
+
+public class MetaDataInfo {
+	
+	private String taluka;
+	private String village;
+	private String area;
+	private int illegalBuildingCoungt;
+	private int RegularisedBuildingCount;
+	private int demolishedBuildingCount;
+	private int pendingBuildingCount;
+	
+	
+	
+	public MetaDataInfo(String taluka, String village, String area, int illegalBuildingCoungt,
+			int regularisedBuildingCount, int demolishedBuildingCount, int pendingBuildingCount) {
+		super();
+		this.taluka = taluka;
+		this.village = village;
+		this.area = area;
+		this.illegalBuildingCoungt = illegalBuildingCoungt;
+		RegularisedBuildingCount = regularisedBuildingCount;
+		this.demolishedBuildingCount = demolishedBuildingCount;
+		this.pendingBuildingCount = pendingBuildingCount;
+	}
+	public String getTaluka() {
+		return taluka;
+	}
+	public void setTaluka(String taluka) {
+		this.taluka = taluka;
+	}
+	public String getVillage() {
+		return village;
+	}
+	public void setVillage(String village) {
+		this.village = village;
+	}
+	public String getArea() {
+		return area;
+	}
+	public void setArea(String area) {
+		this.area = area;
+	}
+	public int getIllegalBuildingCoungt() {
+		return illegalBuildingCoungt;
+	}
+	public void setIllegalBuildingCoungt(int illegalBuildingCoungt) {
+		this.illegalBuildingCoungt = illegalBuildingCoungt;
+	}
+	public int getRegularisedBuildingCount() {
+		return RegularisedBuildingCount;
+	}
+	public void setRegularisedBuildingCount(int regularisedBuildingCount) {
+		RegularisedBuildingCount = regularisedBuildingCount;
+	}
+	public int getDemolishedBuildingCount() {
+		return demolishedBuildingCount;
+	}
+	public void setDemolishedBuildingCount(int demolishedBuildingCount) {
+		this.demolishedBuildingCount = demolishedBuildingCount;
+	}
+	public int getPendingBuildingCount() {
+		return pendingBuildingCount;
+	}
+	public void setPendingBuildingCount(int pendingBuildingCount) {
+		this.pendingBuildingCount = pendingBuildingCount;
+	}
+	
+	
+	
+
+}
