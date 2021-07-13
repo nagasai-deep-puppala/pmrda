@@ -165,5 +165,33 @@ public class MetaDataInfoFactory {
 		
 	return list;
 	}
+	
+public static ArrayList<MetaDataDashBoardBean> getHODDashBoardData() {
+		
+		ArrayList<MetaDataDashBoardBean> list = new ArrayList<MetaDataDashBoardBean>();
+		
+		list.add(new MetaDataDashBoardBean("taluka-1","village-1",600,350.0,450,130,45,470,56));
+		list.add(new MetaDataDashBoardBean("taluka-1","village-2",400,250.0,399,130,45,560,340));
+		list.add(new MetaDataDashBoardBean("taluka-1","village-3",550,350.0,450,90,45,780,112));
+		list.add(new MetaDataDashBoardBean("taluka-1","village-4",700,350.0,450,190,45,60,50));
+			
+		
+		
+		list.add(new MetaDataDashBoardBean("taluka-2","village-1",550,350.0,450,90,45,780,112));
+		list.add(new MetaDataDashBoardBean("taluka-2","village-2",700,350.0,450,190,45,60,50));
+		list.add(new MetaDataDashBoardBean("taluka-2","village-3",600,350.0,450,130,45,260,50));
+		list.add(new MetaDataDashBoardBean("taluka-2","village-4",400,250.0,399,130,45,560,340));
+		
+		
+		
+		
+		
+		list.add(new MetaDataDashBoardBean("taluka-3","village-1",700,350.0,450,190,45,60,50));
+		list.add(new MetaDataDashBoardBean("taluka-3","village-2",600,350.0,450,130,45,260,500));
+		list.add(new MetaDataDashBoardBean("taluka-3","village-3",640,250.0,399,130,45,560,340));
+		list.add(new MetaDataDashBoardBean("taluka-3","village-4",550,350.0,450,90,45,780,112));
+			
+	return list;
+	}
 
 }
