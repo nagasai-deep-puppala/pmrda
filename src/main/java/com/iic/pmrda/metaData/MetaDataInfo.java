@@ -9,9 +9,23 @@ public class MetaDataInfo {
 	private int RegularisedBuildingCount;
 	private int demolishedBuildingCount;
 	private int pendingBuildingCount;
+	private double illegalBuildingPer;
+	private double legalBuildingPer;
 	
 	
 	
+	public double getIllegalBuildingPer() {
+		return illegalBuildingPer;
+	}
+	public void setIllegalBuildingPer(double illegalBuildingPer) {
+		this.illegalBuildingPer = illegalBuildingPer;
+	}
+	public double getLegalBuildingPer() {
+		return legalBuildingPer;
+	}
+	public void setLegalBuildingPer(double legalBuildingPer) {
+		this.legalBuildingPer = legalBuildingPer;
+	}
 	public MetaDataInfo(String taluka, String village, String area, int illegalBuildingCoungt,
 			int regularisedBuildingCount, int demolishedBuildingCount, int pendingBuildingCount) {
 		super();
@@ -28,6 +42,13 @@ public class MetaDataInfo {
 	}
 	public void setTaluka(String taluka) {
 		this.taluka = taluka;
+	}
+	public MetaDataInfo(String taluka, String village, double illegalBuildingPer, double legalBuildingPer) {
+		super();
+		this.taluka = taluka;
+		this.village = village;
+		this.illegalBuildingPer = illegalBuildingPer;
+		this.legalBuildingPer = legalBuildingPer;
 	}
 	public String getVillage() {
 		return village;

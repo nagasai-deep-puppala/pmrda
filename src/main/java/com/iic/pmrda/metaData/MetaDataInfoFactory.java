@@ -135,5 +135,35 @@ public class MetaDataInfoFactory {
 		list.add(new MetaDataInfo("taluka-3","village-4","Bhor-34",495,550,34,370));
 	return list;
 	}
+	
+	public static ArrayList<MetaDataInfo> getPieData() {
+		
+		ArrayList<MetaDataInfo> list = new ArrayList<MetaDataInfo>();
+		
+		list.add(new MetaDataInfo("taluka-1","village-1",34.5,65.5));
+		list.add(new MetaDataInfo("taluka-1","village-2",46.4,53.6));	
+		list.add(new MetaDataInfo("taluka-1","village-3",12.7,87.3));
+		list.add(new MetaDataInfo("taluka-1","village-4",86.3,13.7));
+		list.add(new MetaDataInfo("taluka-1","village-5",55,45));
+		
+		
+		
+		
+		list.add(new MetaDataInfo("taluka-2","village-1",86.3,13.7));		
+		list.add(new MetaDataInfo("taluka-2","village-2",34.5,65.5));
+		list.add(new MetaDataInfo("taluka-2","village-3",55,45));
+		list.add(new MetaDataInfo("taluka-2","village-4",12.7,87.3));
+		
+		
+		
+		
+		
+		list.add(new MetaDataInfo("taluka-3","village-1",12.7,87.3));
+		list.add(new MetaDataInfo("taluka-3","village-2",55,45));
+		list.add(new MetaDataInfo("taluka-3","village-3",34.5,65.5));
+		list.add(new MetaDataInfo("taluka-3","village-4",86.3,13.7));
+		
+	return list;
+	}
 
 }
