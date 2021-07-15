@@ -13,6 +13,9 @@ import com.iic.pmrda.metaData.MetaDataInfo;
 import com.iic.pmrda.service.FirstService;
 import com.iic.pmrda.service.ResponseData;
 
+import io.swagger.v3.oas.annotations.Hidden;
+
+@Hidden
 @Controller
 public class FirstController { 
 	
@@ -36,6 +39,8 @@ public class FirstController {
     	
         return data;
     }
+    
+    
     
     @RequestMapping(value = "/getVillages/{taluka}")
     @ResponseBody
