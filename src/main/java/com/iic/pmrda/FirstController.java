@@ -41,6 +41,12 @@ public class FirstController {
     }
     
     
+    @RequestMapping(value = "/")
+    public String getVillages(){
+    	
+        return "/index,html";
+    }
+    
     
     @RequestMapping(value = "/getVillages/{taluka}")
     @ResponseBody

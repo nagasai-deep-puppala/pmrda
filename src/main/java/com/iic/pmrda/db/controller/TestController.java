@@ -17,19 +17,19 @@ public class TestController {
 	
 	@Autowired
 	TestService service;
-	@PostMapping("/update")
+	@PostMapping("newData/update")
 	public int main(@RequestBody Test test) {
 		System.out.println(test);
 		return  service.update(test);
 	}
 	
-	@GetMapping("/")
+	@GetMapping("newData/all")
 	public List<Test> main() {
 		
 		return  service.findAll();
 	}
 	
-	@GetMapping("/{id}")
+	@GetMapping("newData/{id}")
 	public Test main(@PathVariable String id) {
 		
 		return  service.findById(id);
