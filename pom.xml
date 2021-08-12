@@ -11,7 +11,7 @@
 	<groupId>com.iic</groupId>
 	<artifactId>pmrda</artifactId>
 	<version>1.0.0</version>
-	<name>pmrda</name>
+	<name>pmrdas</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
